@@ -1,0 +1,47 @@
+body {
+    background-image: url('sample image 2.jpeg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
+    color: #4a148c;
+}
+
+.text-purple {
+    color: #6a1b9a;
+}
+
+.btn-purple {
+    background-color: #ab47bc;
+    color: white;
+}
+
+.btn-purple:hover {
+    background-color: #8e24aa;
+}
+
+.dropzone {
+    min-height: 150px;
+    /* max-width: 150px; */
+    background-color: rgba(255, 255, 255, 0.7); 
+    border: 2px dashed #ab47bc;
+    border-radius: 10px;
+    padding-right: 10px ;
+    transition: background-color 0.3s;
+}
+
+.dropzone.dragover {
+    background-color: rgba(255, 255, 255, 0.9); 
+}
+
+.dropzone .list-group-item {
+    background-color: #e1bee7;
+    border-color: #ab47bc;
+    color: #4a148c;
+    cursor: move;
+    margin-bottom: 5px;
+}
+
+.list-group-item.dragging {
+    opacity: 0.5;
+}
